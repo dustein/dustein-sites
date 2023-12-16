@@ -9,10 +9,12 @@ li {
 }
 
 .nav-bar {
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   padding-top: 1.2em;
   padding-bottom: 0.6em;
+  padding-right: 1em;
   background-color: black;
   color: azure;
 }
@@ -49,10 +51,11 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  /* background-attachment: fixed; */
   padding-top: 2.2em;
-  padding-left: 3em;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
 }
 
 .top-1 {
@@ -73,6 +76,59 @@ li {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   letter-spacing: 0.5em;
+}
+
+.seta-baixo {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  color: black;
+}
+
+.seta-baixo:hover {
+  background-color: black;
+  color: grey;
+}
+
+.setas-dupla {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: black;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+.setas-dupla:hover {
+  color: black;
+}
+
+.main-projetos {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 5em;
+}
+
+#portifolio {
+  height: 100vh;
+  background-color: dimgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#projeto1, #projeto2, #projeto3 {
+  border: solid;
+  width: 10em;
+  height: 15em;
+}
+
+#dados {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 footer {
