@@ -8,6 +8,11 @@ li {
   list-style: none;
 }
 
+nav {
+  position: sticky;
+  top: 0px;
+}
+
 .nav-bar {
   height: 10vh;
   display: flex;
@@ -46,11 +51,11 @@ li {
 }
 
 .top-section {
-  /* background-color: rgb(200, 200, 200); */
+  background-color: rgb(200, 200, 200);
   /* background-image: url('edu.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  /* background-position: center center ; */
   padding-top: 2.2em;
   display: flex;
   flex-direction: column;
@@ -60,11 +65,12 @@ li {
 
 .top-1 {
   font-size: 6rem;
+  padding-left: 0.5em;
 }
 
 .top-12 {
   font-size: 6rem;
-  padding-left: 1.4em;
+  padding-left: 1.1em;
 }
 
 #top-2 {
@@ -72,23 +78,23 @@ li {
   font-style: italic;
   background-color: rgb(50, 50, 50);
   color: azure;
-  padding-left: 8em;
-  padding-top: 0.3em;
+  margin-top: 1em;
+  padding-left: 5em;
+  padding-top: 1em;
   padding-bottom: 0.3em;
   letter-spacing: 0.5em;
 }
 
 .seta-baixo {
-  text-align: center;
+  text-align: right;
   padding-bottom: 1em;
   padding-top: 0.5em;
+  padding-right: 0.5em;
   color: black;
-  display: flex;
-  justify-content: space-around;
 }
 
 .seta-baixo:hover {
-  background-color: black;
+  /* background-color: black; */
   color: grey;
 }
 
@@ -97,11 +103,6 @@ li {
   justify-content: space-around;
   padding-bottom: 1em;
   padding-top: 0.5em;
-  width: 100%;
-}
-
-.setas-duplas:hover {
-  background-color: black;
 }
 
 .seta-dupla:hover {
