@@ -83,6 +83,8 @@ li {
   padding-bottom: 1em;
   padding-top: 0.5em;
   color: black;
+  display: flex;
+  justify-content: space-around;
 }
 
 .seta-baixo:hover {
@@ -90,18 +92,38 @@ li {
   color: grey;
 }
 
-.setas-dupla {
+.setas-duplas {
   display: flex;
-  width: 100%;
   justify-content: space-around;
-  color: black;
   padding-bottom: 1em;
   padding-top: 0.5em;
+  width: 100%;
 }
 
-.setas-dupla:hover {
-  color: black;
+.setas-duplas:hover {
+  background-color: black;
 }
+
+.seta-dupla:hover {
+  color: grey;
+}
+
+.seta-dupla {
+  color: black;
+
+}
+
+.seta-last {
+  color: azure;
+  padding: 1em 0.5em;
+  text-align: center;
+}
+
+.seta-last:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
 
 .main-projetos {
   display: flex;
@@ -128,13 +150,31 @@ li {
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
+.last {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dados-info {
+  color: azure;
+  font-size: 2rem;
+  text-align: center;
+  border: solid grey;
+  width: 80%;
+  padding: 2em 0.5em;
+  margin-top: 2em;
+}
 footer {
   background-color: rgb(22, 22, 22);
   color: azure;
   padding: 0.8em;
   letter-spacing: 0.2rem;
   text-align: center;
+  height: 5vh;
 }

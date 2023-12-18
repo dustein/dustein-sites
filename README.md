@@ -1,1 +1,1 @@
-Strting back to make a good profile website.
+Starting back to make a good profile website.
