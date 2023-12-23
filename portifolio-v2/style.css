@@ -5,11 +5,12 @@
 }
 
 header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: black;
   color: azure;
-  padding: 0.5em;
+  padding: 0.8em;
 }
 
 li {
@@ -17,13 +18,32 @@ li {
 }
 
 .nav {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 body {
-  height: 100%;
+  background-color: rgb(114, 114, 114);
+  color: azure;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+}
+
+#du {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 104, 49);
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 0.6em;
 }
