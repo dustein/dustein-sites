@@ -23,7 +23,7 @@ li {
 }
 
 .nav {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 main {
@@ -44,7 +44,7 @@ main {
 #du {
   font-weight: 600;
   text-decoration: underline;
-  text-decoration-color: rgb(245, 145, 31);
+  text-decoration-color: rgb(252, 141, 15);
   letter-spacing: 0.2rem;
 }
 
@@ -64,7 +64,7 @@ main {
   padding-left: 2em;
 }
 #developer {
-  padding-left: 4.5em;
+  padding-left: 4.2em;
   font-size: 1rem;
   font-style: italic;
 }
