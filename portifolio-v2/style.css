@@ -8,9 +8,14 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: black;
   color: azure;
   padding: 0.8em;
+}
+
+#i-code{
+  font-size: 1.2rem;
 }
 
 li {
@@ -18,10 +23,10 @@ li {
 }
 
 .nav {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-body {
+main {
   background-color: rgb(114, 114, 114);
   color: azure;
   display: flex;
@@ -32,17 +37,82 @@ body {
 
 .logo {
   font-size: 1.5rem;
-  letter-spacing: 0.4rem;
+  /* letter-spacing: 0.2rem; */
+  font-family: "Ubuntu", sans-serif;
 }
 
 #du {
   font-weight: 600;
   text-decoration: underline;
-  text-decoration-color: rgb(243, 123, 79);
+  text-decoration-color: rgb(245, 145, 31);
+  letter-spacing: 0.2rem;
+}
+
+.first {
+  text-align: left;
+  background-color: #1b263b;
+  width: 100%;
+  padding: 0.8em;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+#eduardo {
+  padding-left: 1em;
+}
+#stein {
+  padding-left: 2em;
+}
+#developer {
+  padding-left: 4.5em;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.second{
+  background-color: #415a77;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+
+.projects{
+  margin-top: 1em;
+  width: 100%;
+}
+
+#project1{
+  border: solid;
+}
+
+#project2{
+  border: solid;
+}
+
+#project3{
+  border: solid;
+}
+
+.third{
+  padding: 1em;
+  background-color: #e0e1dd;
+  color: #1b263b;
+  width: 100%;
+  text-align: center;
+}
+
+.third li {
+  padding: 0.5em;
+  font-style: italic;
+}
+
+.botton-links {
+  padding-left: 0.5rem;
 }
 
 footer {
   background-color: black;
+  color: azure;
   width: 100%;
   text-align: center;
   padding: 0.6em;
